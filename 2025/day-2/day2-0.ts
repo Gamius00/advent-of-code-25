@@ -1,4 +1,4 @@
-const text = await Deno.readTextFile("day-2/input.txt");
+const text = await Deno.readTextFile("2025/day-2/input.txt");
 const array = text.toString().split(",")
 let invalidIds = 0
 

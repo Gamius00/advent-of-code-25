@@ -1,7 +1,7 @@
 let count = 0
 let batteryArray = []
 let batteryEndCount = 0
-const text = await Deno.readTextFile("day-3/input.txt");
+const text = await Deno.readTextFile("2025/day-3/input.txt");
 const array = text.split(/\s+/)
 
 // The calculate func for the Battery

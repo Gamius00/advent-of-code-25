@@ -1,4 +1,4 @@
-const text = await Deno.readTextFile("day-1/input.txt");
+const text = await Deno.readTextFile("2025/day-1/input.txt");
 const array = text.toString().split((/\s+/))
 let count = 50
 let password = 0
