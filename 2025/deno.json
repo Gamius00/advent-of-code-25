@@ -4,7 +4,8 @@
     "day-1-1": "deno run --allow-read=. day-1/day1-1.ts",
     "day-2-0": "deno run --allow-read=. day-2/day2-0.ts",
     "day-3-0": "deno run --allow-read=. day-3/day3-0.ts",
-    "day-4-0": "deno run --allow-read=. day-4/day4-0.ts"
+    "day-4-0": "deno run --allow-read=. day-4/day4-0.ts",
+    "day-5-0": "deno run --allow-read=. day-5/day5-0.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"

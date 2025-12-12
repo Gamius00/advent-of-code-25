@@ -1,7 +1,7 @@
 let count = 0
 let tempCount = 0
 const text = await Deno.readTextFile("day-4/input.txt");
-const array = text.toString().split((/\s+/))
+const array = text.toString().split(/\s+/)
 
 array.map((entry, entryIndex) => {
     const splitEntry = entry.split("")
